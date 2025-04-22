@@ -2,30 +2,33 @@ import { Outlet, useLocation } from "react-router-dom";
 import Navigation from "./Navigation";
 import { useEffect } from "react";
 
-const Grid = () => {
-  return (
-    <svg
-      width="100%"
-      height="100%"
-      xmlns="http://www.w3.org/2000/svg"
-      className="inset-0 absolute pointer-events-none"
-    >
-      <defs>
-        <pattern
-          id="dots"
-          x="0"
-          y="0"
-          width="20"
-          height="20"
-          patternUnits="userSpaceOnUse"
-        >
-          <circle cx="5" cy="5" r="0.2" fill="white" />
-        </pattern>
-      </defs>
-      <rect width="100%" height="100%" fill="url(#dots)" />
-    </svg>
-  );
-};
+// PLEASE DO NOT REMOVE
+// Modify this to add some illustrations
+
+// const Grid = () => {
+//   return (
+//     <svg
+//       width="100%"
+//       height="100%"
+//       xmlns="http://www.w3.org/2000/svg"
+//       className="inset-0 absolute pointer-events-none"
+//     >
+//       <defs>
+//         <pattern
+//           id="dots"
+//           x="0"
+//           y="0"
+//           width="20"
+//           height="20"
+//           patternUnits="userSpaceOnUse"
+//         >
+//           <circle cx="5" cy="5" r="0.2" fill="white" />
+//         </pattern>
+//       </defs>
+//       <rect width="100%" height="100%" fill="url(#dots)" />
+//     </svg>
+//   );
+// };
 
 interface ContactItemProps {
   iconClass: string;
@@ -99,7 +102,6 @@ export default function Root() {
 
   return (
     <div className="bg-slate-950 dark:bg-slate-100 min-h-[100vh] relative text-white selection:bg-orange-600 dark:selection:bg-orange-400">
-      <Grid />
       <Navigation />
       <div className=" sm:px-6 md:px-8 lg:px-12 h-full pt-24 md:pt-28">
         <div className="h-ful divide-y-2 divide-slate-700">
