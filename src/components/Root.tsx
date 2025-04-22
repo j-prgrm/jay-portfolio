@@ -67,7 +67,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="no-underline cursor-pointer"
           >
-            https://www.linkedin.com/in/j-prgrm/
+            https://www.linkedin.com/in/jay-savlani/
           </a>
         )}
       />
