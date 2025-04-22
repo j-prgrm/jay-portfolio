@@ -63,11 +63,11 @@ const Footer = () => {
         Contact={() => (
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/jay-savlani/"
+            href="https://www.linkedin.com/in/j-prgrm/"
             rel="noopener noreferrer"
             className="no-underline cursor-pointer"
           >
-            https://www.linkedin.com/in/jay-savlani/
+            https://www.linkedin.com/in/j-prgrm/
           </a>
         )}
       />
@@ -77,11 +77,11 @@ const Footer = () => {
         Contact={() => (
           <a
             target="_blank"
-            href="https://github.com/jay-Savlani/"
+            href="https://github.com/j-prgrm/"
             className="no-underline cursor-pointer"
             rel="noopener noreferrer"
           >
-            https://github.com/jay-Savlani/
+            https://github.com/j-prgrm/
           </a>
         )}
       />
