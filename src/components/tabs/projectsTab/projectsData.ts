@@ -179,7 +179,7 @@ export const projectsData: Partial<T_ProjectsData>[] = [
       imgSrc: "",
     },
     githubLink: "https://github.com/j-prgrm/flex-playground",
-    appLink: "https://j-savlani-flex-playground.netlify.app/",
+    appLink: "https://j-prgrm-flex-playground.netlify.app/",
     appLinkName: "Start Flexing",
     summary:
       "A SvetlteJs driven fun and interactive flexbox playground to learn and master CSS. With around 500 lines of code and only 100 lines of code for application logic, it is a compact powerhouse to improve CSS skills.",
