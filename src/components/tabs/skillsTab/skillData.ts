@@ -18,6 +18,13 @@ import TAILWIND_LOGO from "../../../assets/Tailwind_CSS_Logo.svg.png";
 import PYTHON_LOGO from "../../../assets/python_logo.png";
 import BASH_LOGO from "../../../assets/bash_logo.jpg";
 import SVELTE_LOGO from "../../../assets/svelte_logo.svg";
+import AWS_S3_LOGO from "../../../assets/Aamazon_s3.png";
+import AWS_LAMBDA_LOGO from "../../../assets/AWS_lambda.png";
+import AWS_CLOUDFRONT_LOGO from "../../../assets/AWS_cloudfront.webp";
+import SST_LOGO from "../../../assets/SST.png";
+import HOTWIRE_TURBO_LOGO from "../../../assets/Hotwire_turbo.png";
+import STIMULUS_LOGO from "../../../assets/Stimulus_js.png";
+import HONO_LOGO from "../../../assets/Hono_js.png";
 
 export type T_SKillData = {
   title: string;
@@ -145,5 +152,47 @@ export const skillData: T_SKillData[] = [
     src: SVELTE_LOGO,
     summary:
       "Svelte is a modern JavaScript framework designed for building fast, efficient web applications. Unlike traditional frameworks, Svelte shifts much of the work to compile time, producing highly optimized, minimal JavaScript code that runs in the browser. This approach results in faster load times and improved performance, as well as a more straightforward development experience by using a simple, declarative syntax. Additionally, Svelte's component-based architecture and reactive programming model make it an attractive choice for developers looking to create dynamic user interfaces.",
+  },
+  {
+    title: "AWS S3",
+    src: AWS_S3_LOGO,
+    summary:
+      "Amazon S3 (Simple Storage Service) is a scalable object storage service provided by Amazon Web Services (AWS). It allows users to store and retrieve any amount of data from anywhere on the web. S3 is designed for high durability, availability, and security, making it suitable for a wide range of use cases such as data backup, content distribution, and big data analytics. It provides features like versioning, lifecycle management, and access control to help manage data effectively. S3 is widely used for storing static assets, media files, and large datasets in cloud applications.",
+  },
+  {
+    title: "AWS Lambda",
+    src: AWS_LAMBDA_LOGO,
+    summary:
+      "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. You can use Lambda to run your code in response to events such as changes in data or system state, making it a key component of event-driven architectures. With AWS Lambda, you pay only for the compute time you consume, and it automatically scales your applications by running code in response to each trigger. This allows developers to build highly scalable and resilient applications without worrying about the underlying infrastructure.",
+  },
+  {
+    title: "AWS CloudFront",
+    src: AWS_CLOUDFRONT_LOGO,
+    summary:
+      "AWS CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds. It integrates with other AWS services, such as S3 and EC2, to provide a seamless experience for developers. CloudFront offers features like edge caching, real-time metrics, and customizable content delivery options, making it an ideal choice for delivering static and dynamic web content, streaming media, and APIs at scale.",
+  },
+  {
+    title: "SST (Serverless Stack)",
+    src: SST_LOGO,
+    summary:
+      "SST (Serverless Stack) is an open-source framework that simplifies the development and deployment of serverless applications on AWS. It provides a set of tools and best practices for building serverless applications using AWS services like Lambda, API Gateway, and DynamoDB. SST allows developers to define their infrastructure as code, making it easier to manage and deploy serverless applications. With features like live Lambda development, easy API creation, and seamless integration with the AWS ecosystem, SST is a powerful choice for building modern serverless applications.",
+  },
+  {
+    title: "Hotwire Turbo",
+    src: HOTWIRE_TURBO_LOGO,
+    summary:
+      "Hotwire Turbo is a framework for building modern web applications without using much JavaScript. It speeds up page loads by only updating the parts of the page that change, rather than reloading the entire page. Turbo achieves this by using a combination of techniques, including HTML over the wire, which sends HTML instead of JSON from the server, and a set of JavaScript libraries that enhance the user experience. With Turbo, developers can create fast, responsive applications while writing less code and relying more on server-side rendering.",
+  },
+  {
+    title: "Stimulus",
+    src: STIMULUS_LOGO,
+    summary:
+      "Stimulus is a modest JavaScript framework that enhances HTML with behavior. It allows developers to add interactivity to web applications without the complexity of larger frameworks. Stimulus works by connecting HTML elements to JavaScript controllers, enabling developers to define how elements should respond to user interactions. It promotes a clean separation of concerns by keeping behavior in controllers while maintaining the structure in HTML. Stimulus is particularly useful for adding dynamic features to server-rendered applications, making it easy to enhance user interfaces without overwhelming complexity.",
+  },
+  {
+    title: "Hono",
+    src: HONO_LOGO,
+    summary:
+      "Hono is a lightweight and fast web framework for building APIs and web applications in Node.js. It provides a minimalistic approach to routing and middleware, allowing developers to create efficient and scalable applications with ease. Hono's focus on performance and simplicity makes it an ideal choice for building RESTful APIs and microservices, enabling developers to quickly prototype and deploy applications without unnecessary overhead.",
   },
 ];

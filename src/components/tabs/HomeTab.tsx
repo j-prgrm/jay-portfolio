@@ -20,17 +20,18 @@ export const HomeTab = () => {
               JAY SAVLANI
             </h1>
             <h2 className="animation-fade-in font-semibold text-lg lg:text-[22px] tracking-wider mb-6   text-transparent bg-gradient-to-r from-yellow-300 to-yellow-500 dark:from-yellow-400 dark:to-yellow-600  bg-clip-text">
-              SOFTWARE DEVELOPER
+              SOFTWARE ENGINEER
             </h2>
             <p className="text-base text-slate-200 dark:text-slate-600 tracking-wider animation-fade-in">
               Passionate and detail-oriented Software Engineer with 5 years of
-              experience in building user friendly customer facing and internal
-              business applications. Proficient in HTML, CSS, Typescript,
-              Javascript, React, Next.js, Node.js and many more. Experienced in
-              detailing the code with React optimizations, Typescript, JSDoc and
-              writing unit tests for code maintainability. Being Linux
-              enthusiast, I am always eager to reduce daily redundant tasks with
-              bash scripting with a touch of python and increase productivity.
+              overall experience, including 3+ years specializing in React.js,
+              Next.js, Node.js, TypeScript, and related modern web technologies.
+              Skilled in building robust, user-friendly customer-facing and
+              internal business applications. Proficient in optimizing React
+              applications, leveraging TypeScript and JSDoc for maintainable
+              code, and writing comprehensive unit tests. A Linux enthusiast,
+              always eager to automate daily redundant tasks with bash scripting
+              and Python to increase productivity.
             </p>
           </div>
         </div>
