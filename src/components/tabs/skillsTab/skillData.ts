@@ -25,6 +25,8 @@ import SST_LOGO from "../../../assets/SST.png";
 import HOTWIRE_TURBO_LOGO from "../../../assets/Hotwire_turbo.png";
 import STIMULUS_LOGO from "../../../assets/Stimulus_js.png";
 import HONO_LOGO from "../../../assets/Hono_js.png";
+import JAVA_LOGO from "../../../assets/Java.png";
+import JAVA_SPRING_LOGO from "../../../assets/java-spring.png";
 
 export type T_SKillData = {
   title: string;
@@ -194,5 +196,17 @@ export const skillData: T_SKillData[] = [
     src: HONO_LOGO,
     summary:
       "Hono is a lightweight and fast web framework for building APIs and web applications in Node.js. It provides a minimalistic approach to routing and middleware, allowing developers to create efficient and scalable applications with ease. Hono's focus on performance and simplicity makes it an ideal choice for building RESTful APIs and microservices, enabling developers to quickly prototype and deploy applications without unnecessary overhead.",
+  },
+  {
+    title: "Java",
+    src: JAVA_LOGO,
+    summary:
+      "Java is a class-based, object-oriented programming language widely used for building scalable backend services, enterprise applications, and Android apps. It runs on the Java Virtual Machine (JVM) and benefits from a mature ecosystem of libraries, frameworks, and tooling for robust, production-grade systems.",
+  },
+  {
+    title: "Spring Boot",
+    src: JAVA_SPRING_LOGO,
+    summary:
+      "Spring Boot is an opinionated framework built on Spring that simplifies creating production-ready Java applications. It offers auto-configuration, embedded servers, and convention-over-configuration to accelerate development of microservices and RESTful APIs.",
   },
 ];
