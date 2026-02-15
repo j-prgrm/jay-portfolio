@@ -10,6 +10,34 @@ export type T_ProfessionalExperienceData = {
 
 export const data: T_ProfessionalExperienceData[] = [
   {
+    title: "Automation Anywhere",
+    designation: "UI Engineer",
+    skills: [
+      "React.js",
+      "Redux",
+      "HTML",
+      "CSS",
+      "Webpack",
+      "Node.js",
+      "Express.js",
+      "SQL",
+      "Java",
+      "Spring Boot",
+      "GitHub Copilot",
+      "AI",
+      "REST API",
+    ],
+    address: "Vadodara",
+    workDurationRange: "Aug 2025 - present",
+    points: [
+      "Translated Figma designs into responsive, accessible UI pages and modular React components, ensuring pixel-accurate implementation and reusability.",
+      "Optimized development server performance and build pipelines by refining Node.js/Express configurations and tuning Webpack, reducing build and reload times.",
+      "Designed and implemented AI-driven automation agents to streamline repetitive workflows and boost developer productivity.",
+      "Leveraged GitHub Copilot to accelerate implementation of boilerplate code while maintaining quality through code review and targeted adjustments.",
+      "Developed and extended RESTful API endpoints using Java and Spring Boot to support frontend features, collaborating with backend teams on reliability and documentation.",
+    ],
+  },
+  {
     title: "People10 Technosoft Private Limited",
     skills: [
       "React.js",
@@ -40,7 +68,7 @@ export const data: T_ProfessionalExperienceData[] = [
     ],
     designation: "Associate Development Lead",
     address: "Banglore",
-    workDurationRange: "Apr 2025 - Present",
+    workDurationRange: "Apr 2025 - Aug 2025",
     points: [
       "Spearheaded the adoption of Turboframe and Hono for building a modern web application with serverless architecture deployed on AWS Lambda and CloudFront using SST and GitHub Actions.",
       "Led CI/CD setup using GitHub Actions and Infrastructure as Code principles to automate deployment and ensure seamless development-to-production workflows.",
